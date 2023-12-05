@@ -1,0 +1,171 @@
+/* --------------------DEFAULT SETUP---------------- */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    /* font-family: 'Lato', sans-serif; */
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color: white;
+    text-rendering: optimizeLegibility;
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/*         <div class="clearfix"></div>
+ */
+body {
+    /*không cho cuộn ngang, phần vượt quá kích thước web */
+    overflow-x: hidden;
+}
+
+/* -----------------------Reuseable---------------- */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 40px;
+}
+
+/* -----------------------Header------------------- */
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header-img {
+    width: 20%;
+}
+
+.header-img img {
+    width: 100px;
+}
+
+.header-nav {
+    width: 40%;
+}
+
+.header-nav li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: small;
+}
+
+.header-search {
+    width: 40%;
+}
+
+
+button[type="submit"] {
+    background-color: black;
+    color: white;
+}
+
+
+.banner-img img {
+    width: 100%;
+}
+
+
+/* -----------------main body------------ */
+.main-products {
+    display: flex;
+    margin-left: 100px;
+}
+
+.main-product{
+    box-shadow: 0 0 5px 1px;
+    margin-right: 20px;
+    text-align: center;
+}
+.main-product p{
+    color: orange;
+    margin: 20px 0px 20px 0px;
+
+}
+
+.main-product del{
+    color: grey;
+}
+
+.main-product .product-img {
+    width: 300px;
+}
+
+.addbackgroundzo{
+    position: relative;
+    height: 300px;
+    background-image: url('../images/Banner02.jpg');
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.addbackgroundzo h2{
+    letter-spacing: 3px;
+    /* position: absolute; */
+    color: white;
+    /* top: 50px; */
+    font-size: 45px;
+    /* left: 20%; */
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.container-product-2{
+    display: flex;
+    /* margin-left: 10%; */
+    margin-bottom: 50px;
+    justify-content: center;
+
+}
+
+.container-product-element{
+    width: 45%;
+    display: flex;
+    text-align: justify;
+    box-shadow: 0px 0px 5px 1px;
+    margin-right: 20px;
+}
+
+.container-product-element img{
+    width: 250px;
+}
+
+.container-product-element p{
+    margin: 20px 0px 20px 0px;
+}
+
+.buynow{
+    background-color: rgb(255, 128, 0);
+    width: 40%;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+/* -----------------Footer--------------- */
+
+.main-footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: small;
+    line-height: 30px;
+}

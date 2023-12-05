@@ -1,0 +1,153 @@
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+/* <div class="clearfix"></div> */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header div:first-child img{
+    width: 70%;
+    margin-left: 30px;
+}
+
+
+.header div:nth-child(2) ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.header div:nth-child(2) ul li a{
+    text-decoration: none;
+    color: #85BCE2;
+    font-weight: 500;
+}
+
+.header div:nth-child(3)  button[type="submit"]{
+    background-color: #010101;
+    color: white;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.banner img{
+    width: 46%;
+}
+
+.content-detail p{
+    text-align: justify;
+    color: #eda04d;
+    font-style: italic;
+    font-size: large;
+}
+
+.content-detail h1{
+    text-align: center;
+    color: #0AB4B2;
+}
+/* --------------------Talbe------------------- */
+.table{
+    background-color: #E8E4E3;
+    width: 500px;
+    margin-left: 30%;
+    height: 400px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.table div{
+    margin-bottom: 10px;
+}
+
+#tour{
+    width: 160px;
+    height: 25px;
+}
+
+.table div input{
+    height: 25px;
+
+}
+
+.table div label{
+    display: inline-block;
+    width: 120px;
+    margin-left: 5px;
+}
+
+.table h2{
+    color: white;
+    background-color: #0CB6AA;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* margin-bottom: 5px; */
+    text-align: center;
+}
+
+.table .submit{
+    background-color: white;
+    text-align: center;
+}
+
+.table .submit input{
+    background-color: #E77B0F;
+    border: none;
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    margin: 20px 0px 10px 0px;
+}
+
+
+.table p{
+    position: absolute;
+    background-color: #308908;
+    color: white;
+    text-align: center;
+    /* height: 30px; */
+    padding: 10px 0px;
+    width: 100%;
+    top: 90%; 
+}
+
+
+/* -----------------Footer----------------- */
+.footer{
+    background-color: #07A1C7;
+    color: white;
+    
+}
+
+.footer div:first-child{
+    width: 40%;
+    float: left;
+    margin-left: 27%;
+}
+
+.footer div:nth-child(2){
+    width: 13%;
+    float: left;
+    /* border: solid; */
+}
+
+.footer h5{
+    text-align: center;
+    /* color: white; */
+    /* font-size: 24px; */
+    padding-bottom: 40px;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.footer div p{
+    font-weight: 300;
+}
+

@@ -1,0 +1,209 @@
+/* --------------------------------------------- */
+/* ---------DEFAULT SETUP */
+/* --------------------------------------------- */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color: white;
+    text-rendering: optimizeLegibility;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+/* ---------------------Reuseable--------------- */
+
+
+/* ---------------------Header--------------- */
+.header{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;  
+}
+
+.header div:first-child{
+    text-align: center;
+}
+
+.logo{
+    width: 400px;
+}
+
+.header input[type="text"]{
+    width: 200px;
+    height: 32px;
+    font-size: 17px;
+}
+
+.header button[type="submit"]{
+    width: 80px;
+    height: 32px;
+}   
+
+.banner img{
+    width: 78%;
+    margin-bottom: 5px;
+}
+/* -----------------------Navbar------------------ */
+.nav-container{
+    font-size: 18px;
+    text-align: center;
+    background-color:rgb(71, 165, 159);
+    padding: 20px;
+}
+
+
+.nav li{
+    display: inline-block;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+/* -------------------- -Content-------------------- */
+.para{
+    margin: 20px;
+}
+
+.para h1{
+    color: coral;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 40px 0 40px 0;
+}
+
+.para p{
+    margin-bottom: 20px;
+}
+
+.list{
+    display: flex;
+}
+.list{
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.item{
+    padding-bottom: 100px;
+    text-align: center;
+    margin-right: 50px;
+    box-shadow: 2px 2px 1px 1px gray;
+    padding-top: 10px;
+    padding-right: 10px;
+    line-height: 40px;
+}
+
+.item img{
+    width: 350px;
+    height: 200px;
+    
+}
+.item h4{
+    margin-top: 20px;
+    font-size: medium;
+}
+
+.item div{
+    background-color: orange;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+    color: white;
+    font-size: medium;
+}
+
+.item p{
+    color: coral;
+}
+.item del{
+    color: gray;
+}
+
+/* -----------------Feedback---------------- */
+
+.left{
+    float: left;
+    width: 50%;
+}
+
+.left img{
+    width: 100%;
+    margin-left: 20px;
+}
+
+.right{
+    width: 100%;
+    border: solid 1px black;
+    float: right;
+    width: 45%;
+    box-shadow: 0px 5px 4px 0px;
+}
+
+.right label{
+}
+.right input{
+}
+
+.feedback-form{
+    padding: 65px 30px;
+
+}
+
+.feedback-form div{
+    display: flex;
+    justify-content:space-between;
+    margin-top:10px
+}
+.feedback-form div label{
+    width: 20%;
+    color:orange;
+}
+.feedback-form div input,.feedback-form div textarea{
+    width: 70%;
+}
+
+textarea{
+    resize: none;
+}
+
+.btn{
+    background-color: orange;
+    margin: 0 20px;
+    padding:10px 12px;
+    border-radius: 5px;
+    color: white;
+    border:1px solid orange
+}
+.group-btn {
+    display: flex;
+    justify-content: center;
+}
+/* --------------Footer----------------- */
+.footer{
+    background-color: rgb(71, 165, 159);
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+    padding: 4px 0px;
+    margin-top:2%;
+    font-size: small;
+    line-height: 40px;
+}

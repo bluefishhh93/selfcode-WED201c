@@ -1,0 +1,78 @@
+header{
+	background-color: #009900;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.header nav ul li{
+	display: inline-block;
+	width: 30%;
+}
+
+.header nav{
+	/* margin-top: 40px; */
+	/* margin-bottom: 20px; */
+}
+
+.header nav ul li a{
+	text-decoration: none;
+	font-size: 1.3em;
+	color: white;
+}
+
+
+.header nav ul{
+	text-align: center;
+}
+
+.howtogrow{
+	margin-top: 10px;
+	display: flex;
+	margin-left: 20px;
+}
+
+.howtogrow p{
+	display: inline-block;
+	width: 15%;
+	margin-right: 1%;
+	font-size: .9em;
+}
+
+footer{
+	background-color: #C6FFC6;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.aboutme{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+#currentimg{
+	width: 200px;
+	height: 200px;
+	margin-left: 41%;
+	margin-bottom: 20px;
+
+}
+
+.row img{
+	width: 60px;
+	height: 70px;
+}
+
+
+
+.row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}

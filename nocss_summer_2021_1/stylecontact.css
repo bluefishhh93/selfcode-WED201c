@@ -1,0 +1,23 @@
+.input label {
+    display: block;
+    width  : 100px;
+    float  : left;
+    padding: 6px;
+    margin : 2px;
+}
+
+.input input {
+    display: inline-block;
+    padding: 6px;
+    margin : 2px;
+}
+
+form {
+    width: 350px;
+}
+
+#send {
+    text-align: center;
+    display   : block;
+    margin    : 0 auto;
+}

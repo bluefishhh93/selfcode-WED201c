@@ -1,0 +1,67 @@
+
+
+header{
+    background-color: yellow;
+    text-align: center;
+    padding-bottom: 100px;
+    position: relative;
+    padding-top: 5px;
+    margin-bottom: 40px;
+}
+header h1{
+    font-size: 45px;
+}
+
+
+header nav{
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    /* left: 13%; */
+    /* margin-left: 5%; */
+}
+
+header nav a{
+    border: solid black;
+    border-radius: 30px;
+    padding: 20px 200px 20px 200px;
+    background-color: white;
+    margin-left: 2%;
+    text-decoration: none;
+}
+
+
+#left{
+    width: 50%;
+    margin-right: 50px;
+}
+
+#center{
+    width: 40%;
+}
+
+#left, #center{ /*position the sections*/
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+
+#para3{
+    color: blue;
+    cursor: pointer;
+}
+
+#para2{
+    display: none;
+}
+
+footer{
+    background-color: yellow;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+

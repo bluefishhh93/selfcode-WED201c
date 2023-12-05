@@ -1,0 +1,138 @@
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: rgb(70, 104, 215);
+}
+
+.header-logo{
+    width: 30%;
+}
+
+.header-navbar{
+    width: 50%;
+}
+
+.header-form{
+    width: 20%;
+}
+
+button.p4{
+    background-color: black;
+    color: white;
+}
+/* <!--Kết thúc header--> */
+
+.title{
+    color: red;
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+}
+.seller{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.seller-logo{
+    width: 50%;
+    /* margin-left: 5%; */
+    box-shadow: 0px 4px 10px 1px gray;
+    margin-right: 5%;
+}
+
+.seller-des{
+    width: 50%;
+    box-shadow: 0px 4px 10px 1px gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* margin-left: 5%; */
+    font-size: 85%;
+    
+}
+
+.seller-des p{
+    margin-bottom: 30px;
+}
+
+.seller-des p{
+    /* content: " ";
+    display: block;
+    width: 100%;
+    height: 1px; */
+    border-bottom: dotted gray .5px;
+}
+
+.access{
+    display: flex;
+    margin-left: 40px;
+}
+
+.access-item{
+    margin-right: 60px;
+    box-shadow: 4px 0px 10px 1px gray;
+
+}
+
+.access-item img{
+    height: 350px;
+    width: 300px;
+    
+}
+
+.btn{
+    background-color: coral;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: rgb(60, 182, 227);
+    color: rgb(225, 223, 223);
+}
+
+
+#columns{
+    /* text-align: center; */
+    line-height: 40px;
+}
+
+span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#left{
+    display: inline-block;
+    /* width: 40%; */
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#right{
+    display: inline-block;
+    /* width: 40%; */
+    /* text-align: left; */
+    
+}
+
+.cp{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+}

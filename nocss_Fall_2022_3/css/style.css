@@ -1,0 +1,202 @@
+    /* --------------------------------------------- */
+    /* ---------DEFAULT SETUP */
+    /* --------------------------------------------- */
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    html{
+        background-color: white;
+        text-rendering: optimizeLegibility;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .clearfix::after{
+        content: " ";
+        display: table;
+        clear: both;
+    }
+    /*--------------------- Reuseable------------------------ */
+
+    .para{
+        padding: 0px 10px 0px 20px;
+        text-align: center;
+    }
+
+
+    /* -----------------------Header-------------------------- */
+    .header div:first-child{
+        text-align: center;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    input[type="text"]{
+        width: 170px;
+        height: 23px;
+    }
+    button[type="submit"]{
+        width: 60px;
+        height: 23px;
+    }
+
+    /* -----------------div-content---------- */
+
+    .banner1 img{
+        width: 100%;
+    }
+
+    .nav{
+        text-align: center;
+        background-color: #47A59F;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav ul li{
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .nav ul li a{
+        text-decoration: none;
+        color: white;
+
+    }
+
+
+    h1{
+        margin: 30px 0px;
+        font-size: larger;
+        color: #FF8C00;
+    }
+
+    .para p{
+        text-align: left;
+        margin-top: 15px;
+    }
+
+    .list{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .item{
+        width: 20%;
+        padding-top: 10px;
+        padding-right:10px;
+        box-shadow: 2px 2px 1px 1px gray;
+        line-height: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item img{
+        width: 100%;
+        height: 50%;
+    }
+
+    h4{
+        margin-top: 10px;
+    }
+
+    del{
+        color: #FF8C00;
+    }
+
+    .item div{
+        background-color: #FFA500;
+        width: 80%;
+        text-align: center;
+        margin-top: 5px;
+        border-radius: 10px;
+        color: white;
+    }
+
+    /* -------------------Feedback------------------ */
+
+    .left{
+        width: 45%;
+    }
+
+    .left img{
+        display: inline-block;
+        width: 100%;
+        float: left;
+    }
+
+    .right{
+        float: left;
+        margin-left: 5%;
+        display: inline-block;
+        width: 50%;
+        box-shadow: 0px 4px 8px 0px;
+        border: solid 2px;
+        height: 400px;
+    }
+
+
+    /* ----------------------Form---------------- */
+    .right h1{
+        margin-bottom: 10%;
+        text-align: center;
+
+    }
+    .feedback-form{
+        text-align: left;
+    }
+
+
+    .feedback-form div{
+        margin-bottom: 10px;
+        /* width: 90%; */
+        margin-left: 5%;
+
+    }
+
+    .feedback-form div label{
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+        color: #FFA500;
+    }
+
+    .feedback-form div input,textarea{
+        width: 60%;
+    }
+
+     textarea{
+        resize: none;
+    }
+
+    .feedback-form div .btn{
+        width: 30%;
+        background-color: orange;
+        margin: 0 20px;
+        padding:10px 12px;
+        border-radius: 5px;
+        color: white;
+        border:1px solid orange
+    }
+    .group-btn {
+        display: flex;
+        justify-content: center;
+    }
+    /* --------------Footer----------------- */
+    .footer{
+        background-color: rgb(71, 165, 159);
+        margin-bottom: 0;
+        color: white;
+        text-align: center;
+        padding: 4px 0px;
+        margin-top:2%;
+        font-size: small;
+        line-height: 40px;
+    }

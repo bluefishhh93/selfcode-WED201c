@@ -1,0 +1,103 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link href="CSS/styleindex.css" rel="stylesheet" type="text/css" />
+    <script src="JS/mycode.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="images/2017-FE-01-Min.png" />
+        <nav>
+            <a href="#">Sinh viên</a>
+            <a href="#">Chương trình</a>
+            <a href="#">Trang chủ</a>
+        </nav>
+    </header>
+    <section class="left">
+        <ul>
+            <li>Sứ mệnh</li>
+            <li>Triết lý giáo dục</li>
+            <li>Văn hóa</li>
+        </ul>
+    </section>
+    <section class="right">
+        <ul>
+            <li>Sứ mệnh của Trường Đại học FPT<br />“Cung cấp năng lực cạnh tranh toàn cầu cho đông đảo người học, góp
+                phần mở mang bờ cõi trí tuệ đất nước.” </li>
+            <li>Tầm nhìn của Trường Đại học FPT<br />Tầm nhìn được thể hiện trong từ khoá iGSM – [Industry Relevant –
+                Global – Smart Education – Mega].
+                Trở thành một hệ thống giáo dục Mega mang tính quốc tế, đáp ứng nhu cầu xã hội và dựa trên các công nghệ
+                đào tạo tiên tiến nhất </li>
+            <li>Triết lí giáo dục của Trường Đại học FPT<br />Giáo dục đào tạo là tổ chức và quản trị việc tự học của
+                người học.</li>
+            <li>Văn hóa của Trường Đại học FPT<br />
+                <ul>
+                    <li>Tôn đổi đồng chí gương sáng </li>
+                    <li>Học thật, thi thật, thành công thật </li>
+                    <li>Làm khác để làm tốt</li>
+                </ul>
+            </li>
+            <p>
+                <!-- you must code at here to add the form -->
+            </p>
+            <div id="info">
+                <h1>Tư vấn tuyển sinh</h1>
+                <form action="#" id="form-1">
+                    <input type="text" placeholder="nhập tên của bạn" required>*<br>
+                    <input type="text" placeholder="nhập email của bạn" required>*<br>
+                    <label for="year">Năm tốt nghiệp PTTH</label><br>
+                    <select name="year" id="year">
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="Năm khác">Năm khác</option>
+                    </select><br>
+                    <label for="math">Điểm toán</label>
+                    <select name="math" id="math">
+                        <option value="8-10">8-10</option>
+                        <option value="5-7">5-7</option>
+                        <option value="Năm khác">Điểm khác</option>
+                    </select><br>
+                    <label for="physical">Điểm lý</label>
+                    <select name="physical" id="physical">
+                        <option value="8-10">8-10</option>
+                        <option value="5-7">5-7</option>
+                        <option value="Năm khác">Điểm khác</option>
+                    </select><br>
+                    <label for="language">Điểm ngoại ngữ</label>
+                    <select name="language" id="language">
+                        <option value="8-10">8-10</option>
+                        <option value="5-7">5-7</option>
+                        <option value="Năm khác">Điểm khác</option>
+                    </select><br>
+                    <label for="skill">Kỹ năng:</label>
+                    <label for="logic">
+                        <input id="logic" type="checkbox" name="skill">tư duy logic tốt
+                    </label>
+                    <label for="art">
+                        <input id="art" type="checkbox" name="skill">có khiếu thẩm mỹ
+                    </label>
+                    <label for="sensitive">
+                        <input id="sensitive" type="checkbox" name="skill">nhạy bén, nắm bắt tốt với các cơ hội
+                    </label><br>
+                    <input type="submit" value="Tư vấn" onclick="info()">
+                </form>
+                <p id="demo"></p>
+            </div>
+        </ul>
+    </section>
+    <div class="clearfix"></div>
+    <footer>
+        <p>FPT Education<br />
+            <br />Hoa Lac High Tech Park, Hanoi, Vietnam
+            <br />Email: fpteducation@fe.edu.vn
+        </p>
+    </footer>
+    <script src="JS/mycode.js"></script>
+</body>
+
+</html>

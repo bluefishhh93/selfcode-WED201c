@@ -1,0 +1,118 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+body{
+    background-color: #DCD3D4;
+}
+
+.container{
+    background-color: white;
+    /* padding: 0; */
+}
+/* -----------------Slide------------------- */
+.nopadding{
+    padding: 0;
+}
+
+/* ------------------Welcome---------------- */
+.welcome{
+    background-color: #F59798;
+    color: white;
+    text-align: center  ;
+}
+.welcome p{
+    width: 65%;
+    margin: auto;
+    font-size: large;
+}
+
+.welcome div:first-child{
+    margin: 30px 0px 30px 0px;
+}
+
+.welcome div:last-child{
+    margin: 20px 0px 50px 0px;
+}
+
+.btn{
+    border-radius: 50px;
+}
+
+/* -----------------two-imgage---------------- */
+.row:nth-child(6){
+    /* display: flex; */
+    /* justify-content: space-around; */
+    padding-bottom: 20px;
+}
+
+.row:nth-child(6) div:first-child{
+    width: 40%;
+    margin-left: 5%;
+    /* border: solid; */
+    /* margin-right: 5%; */
+}
+.row:nth-child(6) div:last-child{
+    width: 55%;
+    /* border: solid; */
+}
+
+.row:nth-child(6) div:last-child img{
+    margin-left: 0;
+}
+
+.row:nth-child(5),
+.row:nth-child(6) {
+    background-color: #F59798;
+}
+
+.row:nth-child(7) img{
+   width: 400px;
+}
+
+.row:nth-child(7),
+.row:nth-child(8){
+    background-color: #FFEBEC;
+}
+
+
+
+/* .four-img div {
+    width: 20%;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-left: 45px;
+} */
+
+
+.row:nth-child(8){
+   padding-bottom: 40px;
+}
+
+.row:nth-child(8) div{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 21%;
+    background-color: white;
+    text-align: center;
+}
+
+.btnbuy{
+    border-radius: 0;
+    background-color: #F59798;
+}
+
+.row:last-child{
+    background-color: #F59798;
+    /* text-align: right; */
+    color: white;
+}
+
+.row:last-child div{
+    display: inline-block ;
+    vertical-align: top;
+}
+
+.row:last-child img{
+    margin: 10px 0px 10px 0px;
+}

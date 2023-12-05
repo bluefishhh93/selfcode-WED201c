@@ -1,0 +1,89 @@
+header{
+    background-color: rgb(14, 139, 122);
+    text-align: center;
+    padding-top: 5px;
+}
+
+header h1 {
+    color: rgb(230, 116, 9);
+    text-transform: uppercase;
+}
+
+header nav a{
+    padding: 10px 70px 10px 70px;
+    background-color: rgb(104, 212, 201);
+    border-radius: 10px;
+    /* margin-right: 50px; */
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header nav a:first-child{
+    background-color: rgb(222, 196, 163);
+    color: brown;
+}
+
+header nav a:nth-child(2){
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.top a img{
+    width: 150px;
+    height: 150px;
+}
+
+.top{
+    margin-left: 30%;
+    margin-top: 15px;
+}
+
+.bottom h2{
+    color: rgb(63, 108, 177);
+}
+
+#showmore{
+    color: rgb(63, 108, 177);
+}
+
+#team{
+    width: 40%;
+    /* display: block; */
+    /* float: left; */
+    /* display: inline-block; */
+    vertical-align: top;
+    display: none;
+
+}
+
+#team tr:nth-of-type(n+2):hover {
+    opacity: 0.8;
+    background-color: #ffc69a;
+
+}
+
+#team th{
+    background-color: rgb(189, 87, 14);
+}
+
+#team td{
+    background-color: rgb(182, 127, 93);
+}
+
+#myform{
+    /* display: block; */
+    float: right;
+    width: 40%;    
+    background-color: yellow;
+    vertical-align: top;
+    display: inline-block;
+}
+
+
+#myform caption{
+    font-size: 1.5em;
+    text-align: left;
+    /* margin-left: 30%; */
+}

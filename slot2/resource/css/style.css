@@ -1,0 +1,152 @@
+
+/* --------------------------------------------- */
+/* ---------DEFAULT SETUP */
+/* --------------------------------------------- */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #111010;
+    background-color: white;
+    text-rendering: optimizeLegibility;
+}
+/* --------------------------------------------- */
+/* ---------Header*/
+/* --------------------------------------------- */
+header{
+    background-image: url("../img/background4.jpeg"); /*phan ben tren la mau truoc , phan ben duoi la mau sau(mac dinh)*/
+    /* hai dau cham la de di ra khoi folder truoc do , xong roi moi toi folder img */
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    background-attachment: unset;
+    padding-top: 20px;
+}
+
+
+header nav{
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    padding: 15px 5%;
+    margin: 10px;
+    background-color: white;
+    opacity: 0.5;
+    font-weight: 700;
+    border-radius: 8px;
+    width: 70%;
+    transform: all .3s;
+    
+}
+
+header a:hover,
+header a:active{
+    background-color: rgb(232, 189, 110);
+    color: rgb(210, 25, 25);
+    opacity: 1;
+}
+
+
+header h1{
+    text-align: center;
+    color: rgb(210, 140, 11);
+    margin-bottom: 50px;
+
+}
+
+/* --------------------------------------------- */
+/* ---------Main*/
+/* --------------------------------------------- */
+
+main{
+    display: flex;
+}
+
+.left{
+    width: 15%;
+    background-color: rgb(214, 180, 116);
+    /* padding-bottom: 70px; */
+    padding-left: 15px;
+}
+
+.right{
+    width: 85%;
+    margin-left: 20px;
+    /* padding-top: 40px; */
+}
+.left img{
+   width:  90%;
+   border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   border: solid 5px rgb(210, 140, 11);
+}
+
+h2{
+    margin: 40px 0 20px 0;
+    color: rgb(7, 141, 141);
+}
+
+.link{
+    color: black;
+    padding-left: 40px;
+}
+
+.link a{
+    color: red;
+}
+
+
+
+/* table {
+    border-collapse: separate;
+    border-spacing: 4px;
+    margin-left: 20%;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid #cecfd5;
+  }
+  th,
+  td {
+    padding: 10px 15px;
+  } */
+
+  tr{
+    background-color: #ffd6b6;
+    color: rgb(48, 109, 195);
+    text-align: center;
+  }
+
+  th{
+    background-color: #ff8e36;
+    color: black;
+  }
+
+  th:first-child,td:first-child{
+    text-align: left;
+    padding-left: 5px;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid black;
+  }
+
+  th,td{
+    padding-top: 8px;
+    padding-bottom: 8xp;
+  }
+
+  table{
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  tr:hover{
+    background-color: #ffcca4;
+  }

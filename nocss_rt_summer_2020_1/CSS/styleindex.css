@@ -1,0 +1,86 @@
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/*         <div class="clearfix"></div>
+ */
+
+header {
+    background-color: rgb(246, 110, 60);
+}
+
+img {
+    filter: brightness(150%);
+    margin-left: 20px;
+}
+
+header nav {
+    text-align: right;
+}
+
+header nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+#info h1{
+    font-size: 36px;
+    font-weight: lighter;
+    color: coral;
+}
+.left {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.left ul li {
+    list-style-type: none;
+    margin-top: 40px;
+    color: rgb(145, 144, 144);
+    font-size: 24px;
+}
+
+.left li{
+    display: block;
+    width: 90%;
+   border-bottom: solid 2px coral;
+}
+
+.right {
+    border-left: solid 3px rgb(246, 110, 60);
+    float: right;
+    width: 69%;
+}
+
+
+.info form input[type="text"]::after {
+    content: "*";
+    color: red;
+}
+
+#form-1 input[type="submit"] {
+    background-color: coral;
+    width: 80px;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: rgb(246, 110, 60);
+    text-align: center;
+    padding: 2px 0px 2px 0px;
+    font-weight: 600;
+}
+
+.right #demo{
+    border: solid 1px black;
+    display: none;
+    width: 60%;
+}

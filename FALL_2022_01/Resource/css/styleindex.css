@@ -1,0 +1,44 @@
+.navbar-header{
+    background-color: rgb(0, 181, 213);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-header a{
+    color:white;
+}
+.footer{
+    background-color: rgb(0, 181, 213);
+    width: 100%;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+h1{
+    text-align: center;
+    color:  rgb(0, 181, 213);
+    margin: 30px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.active{
+    background-color:orange;
+    font-weight:700;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.right-Search{
+    text-align: center;
+    margin-bottom: 25px;
+    
+}
